@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-blue">
+
+
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>LANE LEUSCHENS BLOG</b></h1>
+  <p>Welcome to my blog!</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+
+<div class="sidenav">
+  <a href="#Home">Home</a>
+  <a href="Blogs.html">Blogs</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="Contact.html">Contact Information</a>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+  
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://yt3.googleusercontent.com/kHkHH98yXBgTjz88ccC8Z1khN0QlW12ktrOfTjw7M3E19lvwxEiybYga2Qe8th5qQiziwiCemQ=s176-c-k-c0x00ffffff-no-rj" alt="Nature" style="width:10%">
+    <div class="w3-container">
+      <h3><b>About Me</b></h3>
+      <h5>Last updated, <span class="w3-opacity">April 14, 2023</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Hello, I'm Lane. I'm currently a student at RDP and am working through the new computer programming course. I enjoy playing video games, going to the gym, and hanging out with friends. I was raised in Consort Alberta and went to Consort School for my education through high school. My blog will tell of some of my experiences throughout my academic year and some time before it.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b><a href="aboutme.html"></a></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <div class="w3-container">
+      <h3><b>Latest Post</b></h3>
+      <h5>Posted, April 10, 2023<span class="w3-opacity">April 2, 2014</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Finals are coming up and I am very stressed. Having this many projects to do in 1 week is wild and even after this website I have two more, I hope I can get them done in time. Math has been the most stressful for me as it's never been something I'm good at and the newest stuff is very confusing. I am luckily feeling good about most of the other classes though so I should be able to pull through.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/w3images/avatar_g.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>My Media of the Week</b></h4>
+      <p>Place Pics and Vids Here</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Featured Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="https://www.sait.ca/assets/images/news/2023/january/nw-sait-catalyst-sculpture-730x485.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">The SAIT 2021 Experience</span><br>
+        <span>After my time in Calgary, I feel like I learned a lot of lessons that will help me in the future, with that said, I'm never going back there. </span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="https://rdpolytech.ca/sites/default/files/RDP-Logo%402x.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Got into RDP</span><br>
+        <span>Just as I thought I wasn't gonna get into residence, I got an email a week before classes begin. Looks like I made it!</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="https://img.freepik.com/free-vector/bowling-set-with-ball_24908-61856.jpg?size=626&ext=jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large"></span>Bowling With Friends!<br>
+        <span>Things are already going better than Calgary, I have actual friends in my class! Today a few of us went on a bowling trip</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://i.cbc.ca/1.5721290.1612919866!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_780/back-to-school-wexford-collegiate.JPG" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">New Class Arrangements</span><br>
+        <span>Today is Monday, reading week just finished and I was ready to get back to class, little did I know that the rest of the term was about to get flipped on it's head.</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Red Deer</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Calgary</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Jobs</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">School</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fun</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hobbies</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Vacation</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Seasons</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p>website template by w3schools, contact me using laneleuschen@gmail.com, or call me at 403-575-5313</p>
+</footer>
+
+</body>
+</html>
